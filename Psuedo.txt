@@ -6,7 +6,7 @@ Determine number of players;
 WHILE (cards are not spread evenly to each player)
   DO keep spreading cards to each player evenly;
 Card information are kept hidden from other players;
-Determine which player initiates start of round and which way players take turns;
+Determine which player initiates start of round and which way players take turns;//u need to set this becuase remember that the game is played on a computer so u determine p1,p2,etc
 Player that initiates round starts by placing one card face up in the middle of table without looking at card information;
 WHILE (start player plays card)
   DO each player takes their turn playing their card until an identical number is revealed, regardless of color and group;
@@ -16,3 +16,5 @@ IF (card with identical number is placed together)
 IF (player obtains all 52 cards)
   THEN player that obtains all cards wins the round;
   ELSE continue with game;
+//this may be harder to implement also u should assign SLAP to a key.
+//P.S i have no idea whether u are implementing or not.
