@@ -16,3 +16,5 @@ IF (card with identical number is placed together)
 IF (player obtains all 52 cards)
   THEN player that obtains all cards wins the round;
   ELSE continue with game;
+//remember to assign a key for slap.
+//U should probbaly also say  who is player1 and player2
